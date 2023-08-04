@@ -18,6 +18,14 @@ body {
 	margin: 0 auto;
 }
 
+a:link {
+  color:white;
+}
+
+a:visited {
+  color: lightgray;
+}
+
 header {
   background: #831b1b;
 }
@@ -86,5 +94,14 @@ nav a:hover::before {
   width: 100%;
 }
 
+.textcenter {
+  text-align: center;
+}
+
+.bordered {
+  border-color: #831b1b;
+  border-width: 10px;
+  border-style: dashed;
+}
 
 
