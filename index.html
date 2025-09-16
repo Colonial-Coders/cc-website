@@ -1,17 +1,179 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>🚧 Under Construction 🚧</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="/style.css" rel="stylesheet" type="text/css" media="all">
-        <meta name="description" content="We're getting a renovation.">
-    </head>
-    <body>
-        <div class="center">
-            <img src="/Picture1.png" width="245" height="245">   
-            <h1>Renovation in progress.</h1>
-            <p>Our site is currently undergoing a remake right now. Sorry for the inconvenience.<br><br>Check our <a href="https://instagram.com/chs.coders" target="_blank">Instagram</a> for updates, or <a href="https://github.com/Colonial-Coders/cc-website-devel" target="_blank">see how development's going</a>.</p>
+<html lang="en">
+<head>
+    <!-- ale was here-->
+    <!-- alf was here-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colonial Coders</title>
+    <link rel="stylesheet" href="a.styles.css">
+</head>
+<body>
+    <div class="parallax"></div>
+    <div class="header">
+        <div class="social-icons">
+            <a href="https://www.instagram.com" target="blank" class="social-icon instagram"></a>
         </div>
-    </body>
+        <h1>Colonial Coders</h1>
+        <p>Tuesday and Thursday 6-213 2:30pm to 4:30pm</p>
+        <a id="joinbtn" href="javascript:void(0)">
+            <button type="button" onclick="javascript:void(0)" class="join-btn">Join Us</button>
+        </a>
+    </div>
+
+    <div class="content-section">
+        <h2 class="highlight">NO EXPERIENCE NEEDED</h2>
+        <div class="cubes">
+            <div class="cube">
+                <img src="code.jpg" alt="Programming">
+                <h3>Programming</h3>
+                <p>Practice & Learn Python</p>
+                <p>Lessons on python from the basics to advanced. Work on practice problems and go to Lockheed CodeQuest competitions.</p>
+            </div>
+            <div class="cube">
+                <img src="cyber.jpg" alt="Cyber Security">
+                <h3>Cyber Security</h3>
+                <p>Gain Cyber Security Skills</p>
+                <p>Learn Cyber skills and methodology. Go to Cyber Lunch competitions, Cyber Quest, and Capture The Flag competitions.</p>
+            </div>
+            <div class="cube">
+                <img src="game.jpg" alt="Game Development">
+                <h3>Game Development</h3>
+                <p>Learn to Use Unity and C#</p>
+                <p>Learn how to use C# and Unity game engine to create video games. Learn the development process and take part in club Game Jams competitions.</p>
+            </div>
+            <div class="cube">
+                <img src="wed.jpeg" alt="Website Design">
+                <h3>Website Design</h3>
+                <p>Practice HTML, CSS and JS</p>
+                <p>Learn how to create your own websites. Lesson on HTML, CSS, and JS for website development and practice design process.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-section officers">
+        <h2 class="highlight">Our Officers</h2>
+        <div class="officer-grid">
+            <div class="officer">
+                <img src="ale.png" alt="Ale"/>
+                <h3>Alejandro</h3>
+                <h4>Co-President</h4>
+                <p>OG website developer, systems administrator (mail server and Cloudflare maintenance), maker of things</p>
+            </div>            
+            <div class="officer">
+                <img src="omer.png" alt="Omer" />
+                <h3>Omer</h3>
+                <h4>Co-President</h4>
+                <p>Teaches Python, event planner, manages social media with Alejandro.</p>
+            </div>
+            <div class="officer">
+                <img src="alf.png" alt="Alfredo" />
+                <h3>Alfredo</h3>
+                <h4>Vice President</h4>
+                <p>Does game development in Unity, and also codes in Python.</p>
+            </div>
+
+            <div class="officer">
+                <img src="Nikolai.png"/>
+                <h3>Nikolai</h3>
+                <h4>Historian, Secretary</h4>
+                <p>Record-keeping, photography</p>
+            </div>
+        </div>
+    </div>    
+
+   
+    <div class="photo-section">
+        <h2>Photo Gallery</h2>
+        <button class="arrow left-arrow">&#10094;</button> <!-- Left arrow -->
+        <div class="photo-slider">
+            <img src="gg.png" class="slider-photo">
+        </div>
+        <button class="arrow right-arrow">&#10095;</button> <!-- Right arrow -->
+    </div>
+    
+
+    <div class="events-section">
+        <h2>Upcoming Events</h2>
+        <div class="event">
+            <img src="pq.png" alt="Event 1">
+            <div class="event-text">
+                <h3>Code Quest Lockheed Martin</h3>
+                <p>Use your skills learn in Python to answer coding challeges, at Lockheed Martin</p>
+            </div>
+        </div>
+        <div class="event">
+            <img src="cy.png" alt="Event 2">
+            <div class="event-text">
+                <h3>Cyber Quest Lockheed Martin</h3>
+                <p>Learn the ropes of cyber security, use your knowledge to face cyber challeges base on hold field</p>
+            </div>
+        </div>
+        <div class="event">
+            <img src="cl.png" alt="Event 3">
+            <div class="event-text">
+                <h3>Cyber Lunch</h3>
+                <p>A CTF, (Capture The Flag) with your learn skill in offensive cyber security practice ethical hacking</p>
+            </div>
+        </div>
+        <div class="event">
+            <img src="placeholder.png">
+            <div class="event-text">
+                <h3>Make A Build</h3>
+                <p>Practice your creative by create a tool, with limit in budget and dimensional limits</p>
+            </div>
+        </div>
+        <div class="event">
+            <img src="gg.png" alt="Event 5">
+            <div class="event-text">
+                <h3>Game Jams</h3>
+                <p>Earn the opportunity to create a themed game with your team.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="qa-section">
+        <h2>Questions and Answers</h2>
+        <div class="qa-item">
+            <button class="qa-button">What is Colonial Coders?</button>
+            <div class="qa-content">
+                <p>Colonial Coders is a club dedicated to helping students interested in a technology related career expand their network and learn new skills.</p>
+            </div>
+        </div>
+        <div class="qa-item">
+            <button class="qa-button">How can I join?</button>
+            <div class="qa-content">
+                <p>By pressing the Join button, or attending meeting held Tuesday and Thursday, room 6-213, 2:30pm to 4:30pm once club starts</p>
+            </div>
+        </div>
+        <div class="qa-item">
+            <button class="qa-button">What do I get from joining?</button>
+            <div class="qa-content">
+                <p>You gain opportunities to meet professions and gain internships</p>
+            </div>
+        </div>
+        <div class="qa-item">
+            <button class="qa-button">What if I don't know how to code?</button>
+            <div class="qa-content">
+                <p>No worries, we will teach you form the grounds up</p>
+            </div>
+        </div>
+        <div class="qa-item">
+            <button class="qa-button">Do I have to show up to every meeting?</button>
+            <div class="qa-content">
+                <p>It is recommend, if can't we do 1 on 1s. No one gets left behind</p>
+            </div>
+        </div>
+    </div> 
+
+
+    <footer>
+        <p>&copy; 2024 Colonial Coders. All rights reserved.</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="a.scripts.js"></script>
+    <div class="parallax"></div>
+
+</body>
 </html>
