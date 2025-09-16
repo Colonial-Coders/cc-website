@@ -45,7 +45,7 @@ setInterval(() => {
     updateSliderPhoto();
 }, 10000); // 10000ms = 10 seconds 
 
-$("#joinbtn").click(function(){
-    $.post("https://analytics.colonialcoders.com/click/joinbtn");
-    window.open('https://docs.google.com/forms/d/e/1FAIpQLSdJ2Ic614-XYOYxw9EyDpsMo8uM6AypKhAs4d8Iw0WGppwhUQ/viewform', '_blank');
-});
+// $("#joinbtn").click(function(){
+    // $.post("https://analytics.colonialcoders.com/click/joinbtn");
+    // window.open('https://docs.google.com/forms/d/e/1FAIpQLSdJ2Ic614-XYOYxw9EyDpsMo8uM6AypKhAs4d8Iw0WGppwhUQ/viewform', '_blank');
+// });
